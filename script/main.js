@@ -1,9 +1,8 @@
 $(document).ready(function () {
+  // fullpage toggle
   $('#fullpage').fullpage({
-    //options here
     autoScrolling: true,
     scrollHorizontally: true,
     navigation: true,
   });
-
 });
