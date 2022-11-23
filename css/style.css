@@ -149,7 +149,7 @@ button:hover {
   height: 53%;
 }
 .profile-image {
-  width: 60%;
+  width: 70%;
   height: 80%;
   margin: 30px auto;
   border-radius: 50%;
@@ -299,7 +299,7 @@ h3 {
 
 .sec4-container {
   width: 80%;
-  height: 60%;
+  height: 500px;
   margin: 0 auto;
   padding: 30px;
   background: #fffff3;
@@ -316,6 +316,7 @@ h3 {
 .sec4-left {
   width: 70%;
   height: 80%;
+  position: relative;
 }
 .sec4-left p {
   font-size: 23px;
@@ -326,7 +327,7 @@ h3 {
   justify-content: space-between;
   margin-top: 30px;
   position: absolute;
-  bottom: 220px;
+  bottom: -70px;
 }
 
 .sec4-button3 {
@@ -334,7 +335,7 @@ h3 {
   justify-content: space-between;
   margin-top: 30px;
   position: absolute;
-  bottom: 170px;
+  bottom: -70px;
 }
 
 .sec4-right {
