@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 .flex {
@@ -58,7 +58,7 @@ button {
 }
 
 .sec1-content-left h1::after {
-  content: '';
+  content: "";
   display: block;
   width: 250px;
   margin-left: 10px;
@@ -106,7 +106,7 @@ button:hover {
   margin-top: 30px;
   width: 35%;
   height: 100%;
-  background: url('../assets/Memoji.gif') center top no-repeat;
+  background: url("../assets/Memoji.gif") center top no-repeat;
 }
 
 .arrow iconify-icon {
@@ -129,7 +129,7 @@ button:hover {
   color: #566270;
 }
 .sec2-content {
-  width: 80%;
+  width: 65%;
   height: 65%;
   margin: 0px auto 0 auto;
   justify-content: space-between;
@@ -137,7 +137,7 @@ button:hover {
 }
 
 .sec2-content > div {
-  width: 30%;
+  width: 28%;
   border-radius: 25px;
   background: #fffff3;
 }
@@ -150,10 +150,10 @@ button:hover {
 }
 .profile-image {
   width: 70%;
-  height: 80%;
-  margin: 30px auto;
+  height: 70%;
+  margin: 50px auto;
   border-radius: 50%;
-  background: url('../assets/Memoji-profile.gif') center no-repeat #566270;
+  background: url("../assets/Memoji-profile.gif") center no-repeat #566270;
   background-size: cover;
 }
 
@@ -256,8 +256,8 @@ h3 {
   color: #566270;
 }
 .sec3-content {
-  width: 80%;
-  height: 54%;
+  width: 75%;
+  height: 42%;
   margin: 0px auto 0 auto;
   justify-content: space-between;
   color: #434c56;
@@ -273,19 +273,20 @@ h3 {
 }
 .sec3-content iconify-icon {
   font-size: 80px;
-  margin-right:55px;
-  margin-bottom: 25px;
+  margin-right: 35px;
+  margin-left: 20px;
+  margin-bottom: 35px;
 }
 
 .sec3-left iconify-icon:nth-child(6) {
-  margin-left: 50px;
+  margin-left: 70px;
 }
 
 .ml-10 {
   margin-left: 10px;
 }
 .ml-18 {
-  margin-left: 18px;
+  margin-left: 36px;
 }
 
 .sec3-middle .flex h3,
@@ -459,7 +460,7 @@ h3 {
     margin-top: 300px;
     width: 250px;
     height: 250px;
-    background: url('../assets/Memoji.gif') center bottom no-repeat;
+    background: url("../assets/Memoji.gif") center bottom no-repeat;
     background-size: cover;
   }
   h2 {
@@ -541,7 +542,8 @@ h3 {
     padding-top: 0px;
   }
 
-  .sec3-middle, .sec3-right {
+  .sec3-middle,
+  .sec3-right {
     line-height: 10px;
   }
 
@@ -566,19 +568,21 @@ h3 {
     position: absolute;
     width: 150px;
     height: 240px;
-    bottom:30px;
+    bottom: 30px;
     transform: translate(0%);
   }
-  .sec4-button, .sec4-button3{
+  .sec4-button,
+  .sec4-button3 {
     width: 20px;
     margin-right: 120px;
-    display: inline;right:-80px;
-    bottom:-90px;
+    display: inline;
+    right: -80px;
+    bottom: -90px;
   }
   .fp-controlArrow:nth-child(3) {
     margin-right: -15px;
-}
-.fp-controlArrow:nth-child(2) {
-  margin-left: -15px;
-}
+  }
+  .fp-controlArrow:nth-child(2) {
+    margin-left: -15px;
+  }
 }
