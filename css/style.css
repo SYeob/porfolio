@@ -257,7 +257,7 @@ h3 {
 }
 .sec3-content {
   width: 75%;
-  height: 42%;
+  height: 44%;
   margin: 0px auto 0 auto;
   justify-content: space-between;
   color: #434c56;
@@ -383,6 +383,15 @@ h3 {
 
 .sec3-content iconify-icon:nth-child(5) {
   font-size: 65px;
+}
+
+@media screen and (max-width: 1920px) {
+  .sec2-content > div {
+    width: 32%;
+  }
+  .sec3-content > div {
+    width: 32%;
+  }
 }
 @media screen and (max-width: 975px) {
   /* page1 */
