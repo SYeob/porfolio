@@ -5,7 +5,7 @@
   font-family: "Noto Sans KR", sans-serif;
 }
 /* 포그리트 추가 페이지(사전질문) */
-/* .fp-controlArrow:nth-child(3) {
+.fp-controlArrow:nth-child(3) {
   margin-left: 30px;
 }
 .fp-controlArrow.fp-next{
@@ -37,8 +37,7 @@ td {
   border: 1px solid black;
 }
 .fGrit-content h3{}
-.fGrit-content p{font-size: 22px;} */
-
+.fGrit-content p{font-size: 22px;}
 #fsize18 {
   padding: 20px;
   font-size: 18px;
@@ -96,7 +95,6 @@ button {
   font-size: 38px;
   color: #fffff3;
   font-weight: bold;
-
 }
 
 .sec1-content-left h1::after {
@@ -145,7 +143,7 @@ button:hover {
 }
 
 .sec1-content-right {
-  margin-top: 50px;
+  margin-top: 30px;
   width: 35%;
   height: 100%;
   background: url("../assets/Memoji.gif") center top no-repeat;
@@ -217,6 +215,7 @@ h3 {
 .sec2-content-middle {
   width: 100%;
   height: 100%;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -224,7 +223,6 @@ h3 {
   width: 100%;
   height: 300px;
   padding: 35px;
-  border: 1px solid black;
 }
 .sec2-mid-bottom {
   width: 100%;
@@ -299,12 +297,17 @@ h3 {
 }
 .sec3-content {
   width: 75%;
-  height: 44%;
+  height: 49%;
   margin: 0px auto 0 auto;
   justify-content: space-between;
   color: #434c56;
 }
-
+.front-stack {
+  background-size: cover;
+  background: center no-repeat;
+  width: 90%;
+  height: auto;
+}
 .sec3-content > div {
   width: 30%;
   height: 100%;
@@ -312,12 +315,6 @@ h3 {
   background: #fffff3;
   box-shadow: 5px 2px 8px rgba(60, 60, 60, 0.397);
   padding: 30px;
-}
-.front-stack {
-  background-size: cover;
-  background: center no-repeat;
-  width: 100%;
-  height: auto;
 }
 .sec3-content iconify-icon {
   font-size: 80px;
@@ -420,6 +417,12 @@ h3 {
   width: 300px;
   border-radius: 25px;
 }
+.five {
+  background: url(../assets/starbucks.png) center;
+  background-size: cover;
+  width: 300px;
+  border-radius: 25px;
+}
 .sec3-content iconify-icon:nth-child(2),
 .sec3-content iconify-icon:nth-child(3) {
   font-size: 100px;
@@ -465,12 +468,6 @@ a.button1:hover {
   background: #aaaaaad1;
   color: rgba(249, 249, 249, 0.856);
 }
-@media screen and (max-width: 2400px){
-  .sec3-content > div {
-    width: 30%;
-    height: 530px;
-  }
-}
 @media screen and (max-width: 1920px) {
   .sec2-content > div {
     width: 32%;
@@ -478,20 +475,14 @@ a.button1:hover {
   .sec3-content > div {
     width: 32%;
   }
-  .sec2-right-bottom,
-  .sec2-right-top {
-    height: 345px;
-  }
 
 }
-
 @media screen and (max-width: 1892px) {
   .sec2-content > div {
     width: 30%;
   }
   .sec3-content > div {
     width: 390px;
-    height: 80%;
   }
   .sec3-content iconify-icon:nth-child(2),
   .sec3-content iconify-icon:nth-child(3){
